@@ -61,13 +61,13 @@ public class ApplicationRunner {
 		
 		
 		
-		for (Shape foo : shapes) {
-			if (foo.getArea() > maxShape.getArea()) {
-				maxShape = foo;
+		for (Shape shape : shapes) {
+			if (shape.getArea() > maxShape.getArea()) {
+				maxShape = shape;
 			}
 			
-			if (foo.getArea() < minShape.getArea()) {
-				minShape = foo;
+			if (shape.getArea() < minShape.getArea()) {
+				minShape = shape;
 			}
 		}
 	
