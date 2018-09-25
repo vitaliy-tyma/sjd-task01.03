@@ -29,7 +29,7 @@ public class ApplicationRunner {
 				" has area of " + tri.getArea());
 		
 		
-		return;
+	
 		
 	}
 
