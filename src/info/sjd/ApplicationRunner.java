@@ -65,14 +65,13 @@ public class ApplicationRunner {
 			if (foo.getArea() > maxShape.getArea()) {
 				maxShape = foo;
 			}
-		}
-	
-		for (Shape foo : shapes) {
+			
 			if (foo.getArea() < minShape.getArea()) {
 				minShape = foo;
 			}
 		}
-		
+	
+
 		logger.log(Level.INFO, "");
 
 		logger.info("Max area is for " + maxShape.getClass().getSimpleName() +
