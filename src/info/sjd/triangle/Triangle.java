@@ -1,9 +1,8 @@
-package Triangle;
+package info.sjd.triangle;
 
 import info.sjd.AbstractShape;
 
 public class Triangle extends AbstractShape {
-
 	private double base;
 	private double height;
 	

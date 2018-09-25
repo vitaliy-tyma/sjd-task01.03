@@ -1,4 +1,4 @@
-package Circle;
+package info.sjd.circle;
 
 import info.sjd.AbstractShape;
 

@@ -1,9 +1,8 @@
-package Square;
+package info.sjd.square;
 
 import info.sjd.AbstractShape;
 
 public class Square extends AbstractShape {
-
 	double side;
 	
 	public double getSide() {
