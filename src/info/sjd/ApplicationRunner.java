@@ -31,7 +31,7 @@ public class ApplicationRunner {
 				" and height " + tri.getHeight() + 
 				" has area of " + tri.getArea());
 		
-	/* Task 4 - Collections */
+	/* Task 4 - Collections. */
 		
 		Circle circle1 = new Circle(11.0);
 		Circle circle2 = new Circle(7.0);
