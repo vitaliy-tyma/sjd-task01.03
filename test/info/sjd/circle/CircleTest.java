@@ -12,7 +12,7 @@ class CircleTest {
 		
 		assertNotNull(circle.getArea());
 		
-		assertEquals(314.1592653589793, circle.getArea());
+		assertEquals(314.1592653589793, circle.getArea(),0.1);
 		
 		assertTrue(circle.getArea() == 314.1592653589793);
 		

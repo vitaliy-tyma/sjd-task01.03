@@ -12,7 +12,7 @@ class SquareTest {
 		
 		assertNotNull(square.getArea());
 		
-		assertEquals(100.0, square.getArea());
+		assertEquals(100.0, square.getArea(),0.1);
 		
 		assertTrue(square.getArea() == 100.0);
 		

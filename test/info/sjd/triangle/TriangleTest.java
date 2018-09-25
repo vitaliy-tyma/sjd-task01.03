@@ -12,7 +12,7 @@ class TriangleTest {
 		
 		assertNotNull(tri.getArea());
 		
-		assertEquals(25.0, tri.getArea());
+		assertEquals(25.0, tri.getArea(),0.1);
 		
 		assertTrue(tri.getArea() == 25.0);
 		
