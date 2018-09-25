@@ -14,4 +14,8 @@ public class Circle extends AbstractShape {
 		return Math.PI * radius * radius;
 	}
 
+	public double getRadius() {
+		return radius;
+	}
+
 }
