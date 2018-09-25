@@ -41,9 +41,7 @@ Educational project.
 			if (foo.getArea() > maxShape.getArea()) {
 				maxShape = foo;
 			}
-		}
-	
-		for (Shape foo : shapes) {
+			
 			if (foo.getArea() < minShape.getArea()) {
 				minShape = foo;
 			}
